@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Arithmetic and Input Programs</title>
+</head>
+<body>
+    <h1>JavaScript Arithmetic and Input Programs</h1>
+
+    <!-- For displaying arithmetic result -->
+    <h2>Arithmetic Result:</h2>
+    <div id="arithmeticResult"></div>
+
+    <!-- For displaying variable operations result -->
+    <h2>Variable Operations Result:</h2>
+    <div id="variableResult"></div>
+
+    <!-- For greeting the user -->
+    <h2>Greet the User:</h2>
+    <input type="text" id="userName" placeholder="Enter your name">
+    <button onclick="greetUser()">Greet</button>
+    <div id="greeting"></div>
+
+    <!-- For multiplication table -->
+    <h2>Multiplication Table:</h2>
+    <input type="number" id="tableNumber" placeholder="Enter a number">
+    <button onclick="generateTable()">Generate Table</button>
+    <div id="multiplicationTable"></div>
+
+    <!-- For subject marks and percentage -->
+    <h2>Subject Marks and Percentage:</h2>
+    <div>
+        <input type="text" id="subject1" placeholder="Enter first subject name">
+        <input type="text" id="subject2" placeholder="Enter second subject name">
+        <input type="text" id="subject3" placeholder="Enter third subject name">
+    </div>
+    <div>
+        <input type="number" id="marks1" placeholder="Enter obtained marks for first subject">
+        <input type="number" id="marks2" placeholder="Enter obtained marks for second subject">
+        <input type="number" id="marks3" placeholder="Enter obtained marks for third subject">
+    </div>
+    <button onclick="calculateMarks()">Calculate Marks</button>
+    <div id="marksResult"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
